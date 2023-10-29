@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1586941963134-6486b671b809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#subBox {
+  width: 250px;
+  height: 40px;
+  border: none;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+}
+
+#subBtn {
+  width: 100px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+form {
+  /* border: red solid; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.msg > p {
+  background-color: black;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
